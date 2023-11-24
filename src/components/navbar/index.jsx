@@ -5,10 +5,10 @@ import { FaRegCalendarCheck } from "react-icons/fa6";
 
 const NavBar = () => {
     return(
-        <div className="flex flex-row border-t-0 justify-between p-4 border-black border-solid">
-            <IoHome size={40} color="blue"/>
-            <CgProfile size={40} color="blue"/>
-            <FaRegCalendarCheck size={40} color="blue"/>
+        <div className="flex flex-row border-t-0 justify-between p-4 border-gray-300 border-solid">
+            <IoHome size={40} className="text-blue-600" />
+            <CgProfile size={40} className="text-blue-600" />
+            <FaRegCalendarCheck size={40} className="text-blue-600" />
         </div>
     )
 }
